@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+
+ <html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <h1>Are you sure you want to remove this course?</h1>
+        <h3>Name: {{ confirm.name }}</h3>
+        <h3>Description: {{ confirm.description }}</h3>
+
+        <a href = "/">No</a>
+        <a href = "/courses/destroy/{{confirm.id}}/confirmed">Yes</a>
+    </body>
+</html>
